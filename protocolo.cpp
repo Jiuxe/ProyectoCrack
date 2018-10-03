@@ -7,6 +7,10 @@ int funcion_suma (int n) {
   return n + 8 ;
 }
 
+bool funcion_booleana_requerida (bool b) {
+  return !b ;
+}
+
 int main(){
 
   bool chocobollo=true;
@@ -27,6 +31,10 @@ int main(){
 
   //Hacemos la llamada a la función
   cout << "numero tras la funcion = " << funcion_suma(numero) << endl;
+
+  // Volvamos a los booleanos
+  cout << chocobollo << endl ;
+  cout << funcion_booleana_requerida(chocobollo) << endl;
 
 
 
