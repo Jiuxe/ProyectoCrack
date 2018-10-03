@@ -1,0 +1,2 @@
+# AlgoritmoCrack
+HardCore guide
