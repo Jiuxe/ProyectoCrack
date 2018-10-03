@@ -11,6 +11,10 @@ bool funcion_booleana_requerida (bool b) {
   return !b ;
 }
 
+int funcion_aprobadas () {
+  return 0 ;
+}
+
 int main(){
 
   bool chocobollo=true;
@@ -35,6 +39,7 @@ int main(){
   // Volvamos a los booleanos
   cout << chocobollo << endl ;
   cout << funcion_booleana_requerida(chocobollo) << endl;
+
 
 
 
