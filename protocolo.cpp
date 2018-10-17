@@ -4,7 +4,7 @@ using namespace std;
 
 int funcion_suma (int n) {
   // En este caso veremos como funcionan las funciones/métodos y veremos el tipo de paso de parámetros
-  return n + 8 ;
+  return (n + 8) ;
 }
 
 bool funcion_booleana_requerida (bool b) {
@@ -32,7 +32,10 @@ int main(){
 
   char caracter = 'C';
   cout << "caracter = " << caracter << endl ;
-
+  
+  string palabra = "null";
+  cout << "Palabra String = " << palabra << endl;
+  
   //Hacemos la llamada a la función
   cout << "numero tras la funcion = " << funcion_suma(numero) << endl;
 
