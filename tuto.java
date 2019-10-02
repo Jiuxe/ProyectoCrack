@@ -6,3 +6,20 @@ bool esPar (int num) {
   else return false;
 
 }
+
+public static String decimalToBinario (int numero){
+  String binario="";
+  String digito;
+  
+  for(int i=numero;i>0;i/=2){
+      if(esPar(i)) {
+        digito=0;
+      }
+      else {
+        digito=1;
+      }
+      binario+=digito;
+  }
+      
+  return binario;
+}
