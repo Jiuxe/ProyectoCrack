@@ -1,5 +1,7 @@
 // En este documento programaremos algunas funciones que nos servirán para explicar los fundamentos de la programación en Java
 
+import java.util.*;
+
 bool esPar (int num) {
 
   if (num % 2 == 0) return true;
@@ -45,4 +47,14 @@ public void circunferencia (double radio) {
     area = Math.PI * Math.pow(radio, 2);
     System.out.println("Longitud de la circunferencia -> " + longitud);
     System.out.println("Area de la circunferencia -> " + area);
+}
+
+public void hipotenusa() {
+  Scanner sc = new Scanner(System.in);
+  double cateto1, cateto2;
+  System.out.print("Introduzca longitud del primer cateto: ");
+  cateto1 = sc.nextDouble();
+  System.out.print("Introduzca longitud del segundo cateto: ");
+  cateto2 = sc.nextDouble();
+  System.out.println("Hipotenusa -> " +  Math.sqrt(Math.pow(cateto1,2)+ Math.pow(cateto2, 2)));
 }
