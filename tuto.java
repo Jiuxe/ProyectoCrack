@@ -9,6 +9,10 @@ bool esPar (int num) {
 
 }
 
+bool esImpar(int num){
+  return !esPar(num); 
+}
+
 public static String decimalBinario (int numero){
   String binario="";
   String digito;
